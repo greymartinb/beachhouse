@@ -40,10 +40,10 @@ function bannerSlider () {
 			timer: false,
 			transition: [ 'fade2' ],
 		    slides: [
-		        { src: "/img/beachPhotos/IMG_2957.jpg" },
-		        { src: "/img/beachPhotos/IMG_2961.jpg" },
-		        { src: "/img/beachPhotos/IMG_0610.jpg" },
-		        { src: "/img/beachPhotos/IMG_2935.jpg" }
+		        { src: "img/beachPhotos/IMG_2957.jpg" },
+		        { src: "img/beachPhotos/IMG_2961.jpg" },
+		        { src: "img/beachPhotos/IMG_0610.jpg" },
+		        { src: "img/beachPhotos/IMG_2935.jpg" }
 		    ]
 		});
 	};
@@ -52,8 +52,8 @@ function bannerSlider () {
 			timer: false,
 			transition: [ 'fade2' ],
 		    slides: [
-		        { src: "/img/banner-style-two/2.jpg" },
-		        { src: "/img/banner-style-two/3.jpg" }
+		        { src: "img/banner-style-two/2.jpg" },
+		        { src: "img/banner-style-two/3.jpg" }
 		    ]
 		});
 	};
