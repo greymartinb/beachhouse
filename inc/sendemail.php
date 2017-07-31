@@ -3,9 +3,9 @@
 // Define some constants
 define( "RECIPIENT_NAME", "Grey" );
 define( "RECIPIENT_EMAIL", "greymartinb@gmail.com" );
-header('Access-Control-Allow-Origin: *');
- header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
- echo "hai";
+// header('Access-Control-Allow-Origin: *');
+//  header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
+//  echo "hai";
 // Read the form values
 $success = false;
 $senderName = isset( $_POST['name'] ) ? preg_replace( "/[^\.\-\' a-zA-Z0-9]/", "", $_POST['name'] ) : "";
